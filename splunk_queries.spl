@@ -1,0 +1,7 @@
+index=win_logs sourcetype=WinEventLog:Security 
+(EventCode=4625 OR EventCode=4688 OR EventCode=4720)
+| stats count by EventCode, Account_Name, _time
+
+index=o365 sourcetype=ms:o365:report:messageTrace 
+Subject="Urgent - Action Required on Your Account"
+| table SenderAddress, RecipientAddress, Subject, Time

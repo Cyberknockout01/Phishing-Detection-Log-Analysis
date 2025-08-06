@@ -1,0 +1,11 @@
+From: support@micros0ft-support.com
+To: Cyberknockout01@company.com
+Subject: Urgent - Action Required on Your Account
+Date: Mon, 05 Aug 2025 09:12:45 -0700
+
+Dear User,
+
+We noticed suspicious activity in your account. Please verify your identity here: http://verify-microsoft-login.gq
+
+Thank you,
+Microsoft Support Team
